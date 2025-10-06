@@ -48,7 +48,7 @@ O notebook gera gráficos comparativos mostrando:
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/seu-usuario/neural-network-robustness-analysis.git
+git clone https://github.com/rafaelsoares4/neural-network-robustness-analysis.git
 cd neural-network-robustness-analysis
 ```
 
@@ -96,7 +96,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 ## 👨‍💻 Autor
 
 **Rafael Freitas**
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
+- GitHub: [@rafaelsoares4](https://github.com/rafaelsoares4)
 
 ## 📚 Referências
 
