@@ -153,7 +153,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## 👨‍💻 Autor
 
-**Rafael Freitas**
+**Rafael Soares**
 - GitHub: [@rafaelsoares4](https://github.com/rafaelsoares4)
 
 ## 📖 Documentação Completa
