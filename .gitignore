@@ -4,66 +4,46 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+dist/
+build/
 
-# Virtual environments
+# Ambientes virtuais
 venv/
+venv_*/
 env/
 ENV/
-venv_tf/
+*.venv
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints/
 
-# TensorFlow
+# Outputs e resultados
+outputs/
+outputs_*/
 *.h5
-*.hdf5
-models/
-checkpoints/
-
-# Logs
+*.keras
 *.log
-logs/
 
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# IDE
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
-# Data files
-*.csv
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Dados e modelos grandes
 *.pkl
 *.pickle
-data/
-datasets/
+*.npy
+*.npz
 
-# Outputs
-outputs/
-results/
-plots/
-graphs/
+# Temporários
+*.tmp
+*.bak
+*.cache

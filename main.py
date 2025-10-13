@@ -1,24 +1,23 @@
 # main.py
 # Script principal para treinar e comparar inicializações no MLP com MNIST
 
-import os
 import json
 import logging
 import time
 from datetime import datetime
 from pathlib import Path
 from dataclasses import dataclass, asdict
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List
 
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Flatten, InputLayer
+from tensorflow.keras.layers import Dense, InputLayer
 from tensorflow.keras.initializers import RandomNormal, Constant, GlorotUniform, HeUniform
 from tensorflow.keras.optimizers import Adam, SGD
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
 
-from utils import preprocess_mnist, add_gaussian_noise, plot_history, plot_samples, evaluate_model_performance
+from utils import preprocess_mnist, add_gaussian_noise, plot_history, evaluate_model_performance
 
 # Configurar logging
 logging.basicConfig(

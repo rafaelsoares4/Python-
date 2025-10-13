@@ -1,0 +1,174 @@
+{
+  "_comment": "Arquivo de configurações pré-definidas para experimentos rápidos",
+
+  "baseline": {
+    "name": "baseline_64neurons",
+    "description": "Configuração baseline padrão",
+    "initializer": "he",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "hidden_units": 64,
+    "batch_size": 128,
+    "epochs": 15,
+    "noise_std": 0.2,
+    "dropout_rate": 0.0,
+    "activation": "relu"
+  },
+
+  "high_robustness": {
+    "name": "high_robustness_64neurons",
+    "description": "Configuração focada em robustez máxima",
+    "initializer": "he",
+    "optimizer": "adam",
+    "learning_rate": 0.0005,
+    "hidden_units": 64,
+    "batch_size": 64,
+    "epochs": 20,
+    "noise_std": 0.3,
+    "dropout_rate": 0.2,
+    "activation": "relu"
+  },
+
+  "fast_training": {
+    "name": "fast_training_64neurons",
+    "description": "Configuração para treinamento rápido",
+    "initializer": "he",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "hidden_units": 64,
+    "batch_size": 256,
+    "epochs": 10,
+    "noise_std": 0.2,
+    "dropout_rate": 0.1,
+    "activation": "relu"
+  },
+
+  "high_regularization": {
+    "name": "high_regularization_64neurons",
+    "description": "Configuração com regularização forte",
+    "initializer": "he",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "hidden_units": 64,
+    "batch_size": 128,
+    "epochs": 15,
+    "noise_std": 0.2,
+    "dropout_rate": 0.4,
+    "activation": "relu",
+    "regularizer": "l2",
+    "reg_strength": 0.01
+  },
+
+  "extreme_noise": {
+    "name": "extreme_noise_test_64neurons",
+    "description": "Teste com ruído extremo",
+    "initializer": "he",
+    "optimizer": "adam",
+    "learning_rate": 0.0005,
+    "hidden_units": 64,
+    "batch_size": 128,
+    "epochs": 20,
+    "noise_std": 0.5,
+    "dropout_rate": 0.3,
+    "activation": "relu"
+  },
+
+  "tanh_activation": {
+    "name": "tanh_activation_64neurons",
+    "description": "Teste com ativação Tanh",
+    "initializer": "glorot",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "hidden_units": 64,
+    "batch_size": 128,
+    "epochs": 15,
+    "noise_std": 0.2,
+    "dropout_rate": 0.0,
+    "activation": "tanh"
+  },
+
+  "elu_activation": {
+    "name": "elu_activation_64neurons",
+    "description": "Teste com ativação ELU",
+    "initializer": "he",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "hidden_units": 64,
+    "batch_size": 128,
+    "epochs": 15,
+    "noise_std": 0.2,
+    "dropout_rate": 0.0,
+    "activation": "elu"
+  },
+
+  "sgd_optimizer": {
+    "name": "sgd_optimizer_64neurons",
+    "description": "Teste com otimizador SGD",
+    "initializer": "he",
+    "optimizer": "sgd",
+    "learning_rate": 0.01,
+    "hidden_units": 64,
+    "batch_size": 128,
+    "epochs": 15,
+    "noise_std": 0.2,
+    "dropout_rate": 0.0,
+    "activation": "relu"
+  },
+
+  "low_learning_rate": {
+    "name": "low_lr_64neurons",
+    "description": "Teste com learning rate baixo",
+    "initializer": "he",
+    "optimizer": "adam",
+    "learning_rate": 0.0001,
+    "hidden_units": 64,
+    "batch_size": 128,
+    "epochs": 20,
+    "noise_std": 0.2,
+    "dropout_rate": 0.0,
+    "activation": "relu"
+  },
+
+  "high_learning_rate": {
+    "name": "high_lr_64neurons",
+    "description": "Teste com learning rate alto",
+    "initializer": "he",
+    "optimizer": "adam",
+    "learning_rate": 0.01,
+    "hidden_units": 64,
+    "batch_size": 128,
+    "epochs": 15,
+    "noise_std": 0.2,
+    "dropout_rate": 0.0,
+    "activation": "relu"
+  },
+
+  "small_batch": {
+    "name": "small_batch_64neurons",
+    "description": "Teste com batch pequeno",
+    "initializer": "he",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "hidden_units": 64,
+    "batch_size": 32,
+    "epochs": 15,
+    "noise_std": 0.2,
+    "dropout_rate": 0.0,
+    "activation": "relu"
+  },
+
+  "large_batch": {
+    "name": "large_batch_64neurons",
+    "description": "Teste com batch grande",
+    "initializer": "he",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "hidden_units": 64,
+    "batch_size": 512,
+    "epochs": 15,
+    "noise_std": 0.2,
+    "dropout_rate": 0.0,
+    "activation": "relu"
+  }
+}
+
